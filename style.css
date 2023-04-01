@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .welcome-text h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 64px;
   font-weight: 900;
 }
@@ -137,3 +137,6 @@ nav a:hover {
 }
 
 /* Home End */
+
+/* About Start */
+/* About End */

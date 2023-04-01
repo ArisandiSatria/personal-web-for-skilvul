@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  scroll-behavior: smooth;
+  transition: .5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+section {
+  margin: 0 10rem;
+}
+
+
+body {
+  background-color: rgb(17, 24, 39);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 50vw;
+  margin: 3rem 25vw;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Home Start */
+
+.welcome {
+  display: grid;
+  height: calc(100vh - 8rem);
+  place-items: center;
+}
+
+.welcome-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcome-text h1 {
+  margin-bottom: 2rem;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.welcome-img>img {
+  width: 400px;
+  border-radius: 100%;
+}
+
+.js-icon img,
+.html-icon img,
+.react-icon img {
+  width: 46px;
+}
+
+.react-icon {
+  position: absolute;
+  right: 600px;
+  top: 250px;
+  animation: react 2s linear infinite;
+}
+
+@keyframes react {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.html-icon {
+  position: absolute;
+  right: 270px;
+  bottom: 170px;
+  animation: html 1.5s linear infinite;
+}
+
+@keyframes html {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.js-icon {
+  position: absolute;
+  bottom: 150px;
+  right: 660px;
+  animation: js 3s linear infinite;
+}
+
+@keyframes js {
+  0% {
+    transform: translateY(-50%)
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* Home End */

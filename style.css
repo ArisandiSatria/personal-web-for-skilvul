@@ -48,7 +48,7 @@ nav a:hover {
 
 .welcome {
   display: grid;
-  height: calc(100vh - 15rem);
+  height: calc(100vh - 10rem);
   place-items: center;
 }
 
@@ -73,6 +73,17 @@ nav a:hover {
 .welcome-img img {
   width: 400px;
   border-radius: 100%;
+}
+
+.welcome-socmed {
+  display: flex;
+  margin-top: 2rem;
+  gap: 20px;
+  align-items: center;
+}
+
+.welcome-socmed a img {
+  width: 32px;
 }
 
 .js-icon img,
@@ -100,7 +111,7 @@ nav a:hover {
 
 .html-icon {
   position: absolute;
-  right: 200px;
+  right: 180px;
   bottom: 225px;
   animation: html 1.5s linear infinite;
 }
@@ -147,7 +158,28 @@ nav a:hover {
 .about-img {
   height: 40vh;
   width: 100%;
-  background-color: red;
+  text-align: center;
+}
+
+.about-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  animation: photo-sandi 1s linear infinite
+}
+
+@keyframes photo-sandi {
+  0% {
+    box-shadow: 0 0 20px #152a56;
+  }
+
+  50% {
+    box-shadow: 0 0 60px #1f3b79;
+  }
+
+  100% {
+    box-shadow: 0 0 20px #152a56;
+  }
 }
 
 .about-text-container {
@@ -177,7 +209,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 75px;
+  gap: 60px;
 }
 
 .portofolio-card {

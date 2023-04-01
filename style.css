@@ -60,8 +60,12 @@ nav a:hover {
   justify-content: space-around;
 }
 
+.welcome-text {
+  width: 50%;
+}
+
 .welcome-text h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 64px;
   font-weight: 900;
 }
@@ -139,4 +143,33 @@ nav a:hover {
 /* Home End */
 
 /* About Start */
+
+.about-img {
+  height: 40vh;
+  width: 100%;
+  background-color: red;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem 0;
+  gap: 10px;
+}
+
+.about-text-container h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.about-text-container p {
+  margin-top: 1rem;
+  font-size: large;
+  font-weight: 500;
+}
+
 /* About End */
+
+/* Portofolio Start */
+/* Portofolio End */

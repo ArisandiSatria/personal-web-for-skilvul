@@ -48,7 +48,7 @@ nav a:hover {
 
 .welcome {
   display: grid;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 15rem);
   place-items: center;
 }
 
@@ -83,8 +83,8 @@ nav a:hover {
 
 .react-icon {
   position: absolute;
-  right: 600px;
-  top: 250px;
+  right: 550px;
+  top: 200px;
   animation: react 2s linear infinite;
 }
 
@@ -100,8 +100,8 @@ nav a:hover {
 
 .html-icon {
   position: absolute;
-  right: 270px;
-  bottom: 170px;
+  right: 200px;
+  bottom: 225px;
   animation: html 1.5s linear infinite;
 }
 
@@ -121,8 +121,8 @@ nav a:hover {
 
 .js-icon {
   position: absolute;
-  bottom: 150px;
-  right: 660px;
+  bottom: 200px;
+  right: 600px;
   animation: js 3s linear infinite;
 }
 
@@ -192,3 +192,17 @@ nav a:hover {
 }
 
 /* Portofolio End */
+
+/* Blog Start */
+.blog {
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 15rem);
+}
+
+.blog h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+/* Blog End */

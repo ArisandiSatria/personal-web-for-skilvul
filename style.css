@@ -175,20 +175,29 @@ nav a:hover {
 
 .portofolio {
   display: flex;
-  border: 1px solid #fff;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 75px;
 }
 
 .portofolio-card {
   width: 30%;
   border: 1px solid #fff;
   text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portofolio-card img {
+  width: 100%;
 }
 
 .portofolio-card-title {
   padding: 1rem;
+}
+
+.portofolio-card-title p {
+  margin-top: .5rem;
 }
 
 /* Portofolio End */

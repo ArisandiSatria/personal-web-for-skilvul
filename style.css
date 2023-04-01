@@ -172,4 +172,23 @@ nav a:hover {
 /* About End */
 
 /* Portofolio Start */
+
+.portofolio {
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.portofolio-card {
+  width: 30%;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.portofolio-card-title {
+  padding: 1rem;
+}
+
 /* Portofolio End */
